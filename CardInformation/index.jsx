@@ -16,8 +16,8 @@ const butons=tags.splice(4)
       <View style={styles.descriptioon}>
         <Text>{paragrap}</Text>
         <View>
-          <Text style={styles.titleText}> by {author}</Text>
-          <Text style={styles.titleText}> by {email}</Text>
+          <Text style={styles.titleText}> Author: {author}</Text>
+          <Text style={styles.titleText}> Email: {email}</Text>
         </View>
         <View style={styles.buttons} >
           {butons.map((element)=>      
