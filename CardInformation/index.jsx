@@ -36,7 +36,6 @@ const butons=tags.splice(4)
     </View>
   )
 }
-//const palabras = logo.split(' ').splice(0,10).join(' ')
 export default CardInformation;
 
 const styles = StyleSheet.create({
